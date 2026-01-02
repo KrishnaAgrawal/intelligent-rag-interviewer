@@ -18,7 +18,6 @@ This system was designed to demonstrate intelligent system design by combining h
 
 ## 📂 Tech Stack
 ## Backend
-
 - FastAPI
 - Python
 - LangChain
@@ -27,7 +26,6 @@ This system was designed to demonstrate intelligent system design by combining h
 - OpenCV (Face Detection)
 
 ## Frontend
-
 - React (Vite)
 - Modern Hooks (useEffect, useRef, useState)
 - Style objects (CSS-in-JS)
