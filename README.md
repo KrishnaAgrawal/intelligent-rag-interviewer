@@ -80,19 +80,14 @@ pip install -r requirements.txt
 ```
 CREATE DATABASE game_interviewer;
 ```
-Restore the game_interviewer.sql into the database from backend/database/game_interviewer.sql
-Update DB config (like: user, password) in backend/database/db.py
-If PostgreSQL is unavailable, the system gracefully falls back to vector-based reasoning.
+- Restore the game_interviewer.sql into the database from backend/database/game_interviewer.sql
+- Update DB config (like: user, password) in backend/database/db.py
+- If PostgreSQL is unavailable, the system gracefully falls back to vector-based reasoning.
 
 ### 4️⃣ Prepare Vector Database (RAG)
-
-Place PDFs in:
-```
-backend/rag/data/
-```
-
 Run ingestion:
 ```
+cd backend
 python rag/ingest.py
 ```
 
