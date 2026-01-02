@@ -32,23 +32,6 @@ This system was designed to demonstrate intelligent system design by combining h
 - Modern Hooks (useEffect, useRef, useState)
 - Style objects (CSS-in-JS)
 
-## 🧪 Sample Interview Questions
-
-### RAG Based
-- How do you ensure a character is visually recognizable?
-- How do you design characters for inexperienced players?
-- How do gameplay mechanics influence character design?
-### Hybrid (PDF knowledge + structured constraints)
-- Design a beginner-friendly RPG character for a mobile game. What constraints would you consider?
-- How do production constraints affect visual design?
-
-### Note: Future Enhancements – Unstructured Knowledge 
-- Although the system uses hybrid retrieval, responses are intentionally unstructured to reflect how human designers articulate reasoning during interviews.
-- Structured data is used to constrain reasoning, while unstructured output enables explanation and justification.
-- The system can be extended with semantic chunking, concept-level indexing, confidence-weighted retrieval, and hallucination guardrails to further improve reasoning quality.
-
-
-
 ## ⚙️ Installation & Setup Guide (Step by Step)
 ### Prerequisites
 - Python 3.10+
@@ -75,6 +58,7 @@ venv\Scripts\activate      # Windows
 ```
 pip install -r requirements.txt
 ```
+### Note: It may take some time.
 
 ### 3️⃣ (Optional) PostgreSQL Setup
 ```
@@ -90,6 +74,7 @@ Run ingestion:
 cd backend
 python rag/ingest.py
 ```
+### Note: It may take some time.
 
 ### 5️⃣ Start Backend Server
 ```
@@ -123,6 +108,22 @@ http://localhost:5173
 2. Login using webcam (Face recognition)
 3. Ask an interview question
 4. Receive AI-generated response
+
+## 🧪 Sample Interview Questions
+
+### RAG Based
+- How do you ensure a character is visually recognizable?
+- How do you design characters for inexperienced players?
+- How do gameplay mechanics influence character design?
+### Hybrid (PDF knowledge + structured constraints)
+- Design a beginner-friendly RPG character for a mobile game. What constraints would you consider?
+- How do production constraints affect visual design?
+
+### Note: Future Enhancements – Unstructured Knowledge 
+- Although the system uses hybrid retrieval, responses are intentionally unstructured to reflect how human designers articulate reasoning during interviews.
+- Structured data is used to constrain reasoning, while unstructured output enables explanation and justification.
+- The system can be extended with semantic chunking, concept-level indexing, confidence-weighted retrieval, and hallucination guardrails to further improve reasoning quality.
+
 
 ## 🚀 Future Enhancements
 - Identity-based face recognition
