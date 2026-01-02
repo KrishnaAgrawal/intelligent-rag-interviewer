@@ -1,0 +1,31 @@
+# =========================
+# Python / Backend
+# =========================
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Vector DB / Generated RAG Artifacts
+backend/chroma_db/
+backend/chroma.sqlite3
+backend/rag/vector_store/
+
+# Environment files
+.env
+.env.*
+
+# =========================
+# Node / Frontend
+# =========================
+frontend/node_modules/
+frontend/dist/
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
